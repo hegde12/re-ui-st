@@ -305,10 +305,10 @@ button, a { transition: var(--transition); }
   gap: 5px;
 }
 
-.header-top-link:is(:hover, :focus) { color: var(--orange-soda); }
+/*.header-top-link:is(:hover, :focus) { color: var(--orange-soda); }*/
 
 .header-top-link ion-icon {
-  color: var(--orange-soda);
+  color: var(--white);
   font-size: 15px;
   --ionicon-stroke-width: 60px;
 }
