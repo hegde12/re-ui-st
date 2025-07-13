@@ -305,10 +305,10 @@ button, a { transition: var(--transition); }
   gap: 5px;
 }
 
-.header-top-link:is(:hover, :focus) { color: var(--orange-soda); }
+/*.header-top-link:is(:hover, :focus) { color: var(--orange-soda); }*/
 
 .header-top-link ion-icon {
-  color: var(--orange-soda);
+  color: var(--white);
   font-size: 15px;
   --ionicon-stroke-width: 60px;
 }
@@ -553,6 +553,17 @@ button, a { transition: var(--transition); }
 }
 
 .about .callout {
+  background: hsla(7, 78%, 53%, 0.05);
+  color: var(--cadet);
+  font-size: var(--fs-5);
+  font-weight: var(--fw-500);
+  line-height: 1.8;
+  padding: 20px 25px;
+  border-left: 4px solid var(--orange-soda);
+  margin-bottom: 40px;
+}
+
+.hero .callout {
   background: hsla(7, 78%, 53%, 0.05);
   color: var(--cadet);
   font-size: var(--fs-5);
