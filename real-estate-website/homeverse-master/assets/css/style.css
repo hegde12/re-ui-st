@@ -912,7 +912,7 @@ button, a { transition: var(--transition); }
   box-shadow: var(--shadow-1);
 }
 
-.features-card:is(:hover, :focus) { background: var(--orange-soda); }
+/* .features-card:is(:hover, :focus) { background: var(--orange-soda); } */
 
 .features-card .card-icon {
   background: var(--seashell);
@@ -936,7 +936,9 @@ button, a { transition: var(--transition); }
   transition: var(--transition);
 }
 
-.features-card:is(:hover, :focus) .card-title { color: var(--white); }
+.features-card:is(:hover, :focus) .card-title { 
+  color: var(--dark-jungle-green); /* or your preferred color */
+}
 
 .features-card .card-btn {
   background: var(--white);
